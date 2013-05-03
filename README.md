@@ -41,3 +41,4 @@ Add Components:
 		'class' => 'UAuthManager',
 	)
 	
+Credits to http://www.cniska.net/ for the auth module
