@@ -2,10 +2,12 @@ DUser
 =====
 
 Requires:
-YiiBooster
+
+	YiiBooster
 
 Add Routes:
-    'admin/user/<action:(update|delete)>/<id:\d+>' => 'user/admin/<action>',
+    
+	'admin/user/<action:(update|delete)>/<id:\d+>' => 'user/admin/<action>',
     'admin/user/<action:(update|delete)>' => 'user/admin/<action>',
     'admin/user' => 'user/admin/index',
     
@@ -19,16 +21,19 @@ Add Routes:
     'user/logout' => 'user/default/logout',
 	
 Add Imports:
+
 	'user.models.*',
     'user.components.*',
     'user.forms.*',
 	
 Add Module:
+
     'user' => array(
         'appLayout' => 'application.views.layout.main',
     ),
 	
-Add Components
+Add Components:
+
 	'user => array(
 		'class' => 'UWebUser'
 	),
